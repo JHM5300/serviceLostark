@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.body {
+  background-color: #282c34;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.select {
+  font-size: 30px;
+}
+.item {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  vertical-align: top;
+}
+.lineBlock {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.divTop {
+  vertical-align: top;
+}
+.btn-sector {
+  display: flex;
+}
+.gold {
+  display: flex;
+}
+.sector {
+  margin: 30px;
+}
+.itemList-name {
+  width: 350px;
+}
+.itemList-value {
+  margin-inline-start: 15px;
+}
+.itemList {
+  padding: 15px;
+}
+.item-name {
+  text-align: start;
+}
+.item-value {
+  display: flex;
+}
+.preset {
+  padding: 5px;
+  color: black;
+}
+.preset.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.preset-span {
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+}
+th {
+  padding: 15px;
+}
+span {
+  text-align: center;
+  margin: auto;
+}
+img {
+  width: 20px;
+}
+.footer {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100px;
+  background-color: #00000d;
+  color: white;
+}
