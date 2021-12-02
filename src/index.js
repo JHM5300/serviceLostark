@@ -9,11 +9,11 @@ import reportWebVitals from "./reportWebVitals";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Switch>
-        <Route path="/engraving" render={(props) => <LostArk {...props} />} />
+        <Route path="/" render={(props) => <LostArk {...props} />} />
 
-        <Redirect from="/" to="/engraving" />
+        {/* <Redirect from="/" to="/engraving" /> */}
       </Switch>
       <ToastContainer />
     </BrowserRouter>
